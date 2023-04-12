@@ -49,8 +49,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         listaUsuarios.add(new Usuario("xcheko51x", "Sergio Peralta", "sergiop@local.com"));
-        listaUsuarios.add(new Usuario("laurap", "Laura Perez", "laurap@local.com"));
-        listaUsuarios.add(new Usuario("juanm", "Juan Morales", "juanm@local.com"));
 
         binding.btnCrearPdf.setOnClickListener(new View.OnClickListener() {
             @Override
